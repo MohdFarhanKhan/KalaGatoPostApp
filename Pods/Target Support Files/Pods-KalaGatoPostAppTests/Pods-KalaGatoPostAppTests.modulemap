@@ -1,0 +1,6 @@
+framework module Pods_KalaGatoPostAppTests {
+  umbrella header "Pods-KalaGatoPostAppTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

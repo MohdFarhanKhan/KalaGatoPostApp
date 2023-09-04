@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "8373DE77-BBC9-41E9-B280-76D6F7E6C1CE"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3EF428D2-2C7E-458A-BA01-5ACCB0FC71AE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KalaGatoPostApp/Services/HTTPUtility.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "getApiData(requestUrl:resultType:completionHandler:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "3EF428D2-2C7E-458A-BA01-5ACCB0FC71AE - e931c62988b1854e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in KalaGatoPostApp.HttpUtility.getApiData&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(requestUrl: Foundation.URL, resultType: &#x3c4;_0_0.Type, completionHandler: (Swift.Optional&lt;&#x3c4;_0_0&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "KalaGatoPostApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/najranemarah/Desktop/KalaGatoPostApp/KalaGatoPostApp/Services/HTTPUtility.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "314">
+               </Location>
+               <Location
+                  uuid = "3EF428D2-2C7E-458A-BA01-5ACCB0FC71AE - e931c62988b1854e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in KalaGatoPostApp.HttpUtility.getApiData&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(requestUrl: Foundation.URL, resultType: &#x3c4;_0_0.Type, completionHandler: (Swift.Optional&lt;&#x3c4;_0_0&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "KalaGatoPostApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/najranemarah/Desktop/KalaGatoPostApp/KalaGatoPostApp/Services/HTTPUtility.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "372">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B082F822-EE54-4397-9192-19106B91D464"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KalaGatoPostApp/Services/HTTPUtility.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "getApiData(requestUrl:resultType:completionHandler:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B082F822-EE54-4397-9192-19106B91D464 - e931c62988b18477"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in KalaGatoPostApp.HttpUtility.getApiData&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(requestUrl: Foundation.URL, resultType: &#x3c4;_0_0.Type, completionHandler: (Swift.Optional&lt;&#x3c4;_0_0&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "KalaGatoPostApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/najranemarah/Desktop/KalaGatoPostApp/KalaGatoPostApp/Services/HTTPUtility.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "1690">
+               </Location>
+               <Location
+                  uuid = "B082F822-EE54-4397-9192-19106B91D464 - e931c62988b18477"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in KalaGatoPostApp.HttpUtility.getApiData&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(requestUrl: Foundation.URL, resultType: &#x3c4;_0_0.Type, completionHandler: (Swift.Optional&lt;&#x3c4;_0_0&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "KalaGatoPostApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/najranemarah/Desktop/KalaGatoPostApp/KalaGatoPostApp/Services/HTTPUtility.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "2144">
+               </Location>
+               <Location
+                  uuid = "B082F822-EE54-4397-9192-19106B91D464 - e931c62988b1bb90"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in KalaGatoPostApp.HttpUtility.getApiData&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(requestUrl: Foundation.URL, resultType: &#x3c4;_0_0.Type, completionHandler: (Swift.Optional&lt;&#x3c4;_0_0&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "KalaGatoPostApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/najranemarah/Desktop/KalaGatoPostApp/KalaGatoPostApp/Services/HTTPUtility.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "2606">
+               </Location>
+               <Location
+                  uuid = "B082F822-EE54-4397-9192-19106B91D464 - e931c62988b1bb90"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in KalaGatoPostApp.HttpUtility.getApiData&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(requestUrl: Foundation.URL, resultType: &#x3c4;_0_0.Type, completionHandler: (Swift.Optional&lt;&#x3c4;_0_0&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "KalaGatoPostApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/najranemarah/Desktop/KalaGatoPostApp/KalaGatoPostApp/Services/HTTPUtility.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "3060">
+               </Location>
+               <Location
+                  uuid = "B082F822-EE54-4397-9192-19106B91D464 - e931c62988b1bbf3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in KalaGatoPostApp.HttpUtility.getApiData&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(requestUrl: Foundation.URL, resultType: &#x3c4;_0_0.Type, completionHandler: (Swift.Optional&lt;&#x3c4;_0_0&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "KalaGatoPostApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/najranemarah/Desktop/KalaGatoPostApp/KalaGatoPostApp/Services/HTTPUtility.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "2606">
+               </Location>
+               <Location
+                  uuid = "B082F822-EE54-4397-9192-19106B91D464 - e931c62988b1bbf3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in KalaGatoPostApp.HttpUtility.getApiData&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(requestUrl: Foundation.URL, resultType: &#x3c4;_0_0.Type, completionHandler: (Swift.Optional&lt;&#x3c4;_0_0&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "KalaGatoPostApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/najranemarah/Desktop/KalaGatoPostApp/KalaGatoPostApp/Services/HTTPUtility.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "3060">
+               </Location>
+               <Location
+                  uuid = "B082F822-EE54-4397-9192-19106B91D464 - e931c62988b1bbf3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in KalaGatoPostApp.HttpUtility.getApiData&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(requestUrl: Foundation.URL, resultType: &#x3c4;_0_0.Type, completionHandler: (Swift.Optional&lt;&#x3c4;_0_0&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "KalaGatoPostApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/najranemarah/Desktop/KalaGatoPostApp/KalaGatoPostApp/Services/HTTPUtility.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "1690">
+               </Location>
+               <Location
+                  uuid = "B082F822-EE54-4397-9192-19106B91D464 - e931c62988b1bbf3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in KalaGatoPostApp.HttpUtility.getApiData&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(requestUrl: Foundation.URL, resultType: &#x3c4;_0_0.Type, completionHandler: (Swift.Optional&lt;&#x3c4;_0_0&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "KalaGatoPostApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/najranemarah/Desktop/KalaGatoPostApp/KalaGatoPostApp/Services/HTTPUtility.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "2144">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E4D71020-0834-41AF-BFBA-72F98D3105FB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KalaGatoPostApp/Services/HTTPUtility.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "getApiData(requestUrl:resultType:completionHandler:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E4D71020-0834-41AF-BFBA-72F98D3105FB - e931c62988b18456"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in KalaGatoPostApp.HttpUtility.getApiData&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(requestUrl: Foundation.URL, resultType: &#x3c4;_0_0.Type, completionHandler: (Swift.Optional&lt;&#x3c4;_0_0&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "KalaGatoPostApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/najranemarah/Desktop/KalaGatoPostApp/KalaGatoPostApp/Services/HTTPUtility.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "1706">
+               </Location>
+               <Location
+                  uuid = "E4D71020-0834-41AF-BFBA-72F98D3105FB - e931c62988b18456"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in KalaGatoPostApp.HttpUtility.getApiData&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(requestUrl: Foundation.URL, resultType: &#x3c4;_0_0.Type, completionHandler: (Swift.Optional&lt;&#x3c4;_0_0&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "KalaGatoPostApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/najranemarah/Desktop/KalaGatoPostApp/KalaGatoPostApp/Services/HTTPUtility.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "1770">
+               </Location>
+               <Location
+                  uuid = "E4D71020-0834-41AF-BFBA-72F98D3105FB - e931c62988b1bbf3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in KalaGatoPostApp.HttpUtility.getApiData&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(requestUrl: Foundation.URL, resultType: &#x3c4;_0_0.Type, completionHandler: (Swift.Optional&lt;&#x3c4;_0_0&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "KalaGatoPostApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/najranemarah/Desktop/KalaGatoPostApp/KalaGatoPostApp/Services/HTTPUtility.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "2622">
+               </Location>
+               <Location
+                  uuid = "E4D71020-0834-41AF-BFBA-72F98D3105FB - e931c62988b1bbf3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in KalaGatoPostApp.HttpUtility.getApiData&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(requestUrl: Foundation.URL, resultType: &#x3c4;_0_0.Type, completionHandler: (Swift.Optional&lt;&#x3c4;_0_0&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "KalaGatoPostApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/najranemarah/Desktop/KalaGatoPostApp/KalaGatoPostApp/Services/HTTPUtility.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "2686">
+               </Location>
+               <Location
+                  uuid = "E4D71020-0834-41AF-BFBA-72F98D3105FB - e931c62988b1bbd2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in KalaGatoPostApp.HttpUtility.getApiData&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(requestUrl: Foundation.URL, resultType: &#x3c4;_0_0.Type, completionHandler: (Swift.Optional&lt;&#x3c4;_0_0&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "KalaGatoPostApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/najranemarah/Desktop/KalaGatoPostApp/KalaGatoPostApp/Services/HTTPUtility.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "2622">
+               </Location>
+               <Location
+                  uuid = "E4D71020-0834-41AF-BFBA-72F98D3105FB - e931c62988b1bbd2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in KalaGatoPostApp.HttpUtility.getApiData&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(requestUrl: Foundation.URL, resultType: &#x3c4;_0_0.Type, completionHandler: (Swift.Optional&lt;&#x3c4;_0_0&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "KalaGatoPostApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/najranemarah/Desktop/KalaGatoPostApp/KalaGatoPostApp/Services/HTTPUtility.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "2686">
+               </Location>
+               <Location
+                  uuid = "E4D71020-0834-41AF-BFBA-72F98D3105FB - e931c62988b1bbd2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in KalaGatoPostApp.HttpUtility.getApiData&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(requestUrl: Foundation.URL, resultType: &#x3c4;_0_0.Type, completionHandler: (Swift.Optional&lt;&#x3c4;_0_0&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "KalaGatoPostApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/najranemarah/Desktop/KalaGatoPostApp/KalaGatoPostApp/Services/HTTPUtility.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "1706">
+               </Location>
+               <Location
+                  uuid = "E4D71020-0834-41AF-BFBA-72F98D3105FB - e931c62988b1bbd2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in KalaGatoPostApp.HttpUtility.getApiData&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(requestUrl: Foundation.URL, resultType: &#x3c4;_0_0.Type, completionHandler: (Swift.Optional&lt;&#x3c4;_0_0&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "KalaGatoPostApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/najranemarah/Desktop/KalaGatoPostApp/KalaGatoPostApp/Services/HTTPUtility.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "1770">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0FE83A46-C0FC-4266-A226-EF528751849F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KalaGatoPostApp/Services/HTTPUtility.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "getApiData(requestUrl:resultType:completionHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3C29050C-0BE2-46F4-9C34-7F37A7BE381D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KalaGatoPostApp/Services/HTTPUtility.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "getApiData(requestUrl:resultType:completionHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DE517F90-7835-4FEC-94E4-A22A4D112138"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KalaGatoPostApp/Services/HTTPUtility.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "getApiData(requestUrl:resultType:completionHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9C814D79-E005-4B05-A1FE-AA640F6E2B48"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KalaGatoPostApp/Repository/PostDataRepository.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "201"
+            endingLineNumber = "201"
+            landmarkName = "createBatchInsertRequest(records:mnObjectcontext:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9C814D79-E005-4B05-A1FE-AA640F6E2B48 - 8f5bf8e0d81c034f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.NSManagedObject) -&gt; Swift.Bool in KalaGatoPostApp.PostDataRepository.createBatchInsertRequest(records: Swift.Array&lt;KalaGatoPostApp.PostData&gt;, mnObjectcontext: __C.NSManagedObjectContext) -&gt; __C.NSBatchInsertRequest"
+                  moduleName = "KalaGatoPostApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/najranemarah/Desktop/KalaGatoPostApp/KalaGatoPostApp/Repository/PostDataRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "2431">
+               </Location>
+               <Location
+                  uuid = "9C814D79-E005-4B05-A1FE-AA640F6E2B48 - 8f5bf8e0d81c032e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.NSManagedObject) -&gt; Swift.Bool in KalaGatoPostApp.PostDataRepository.createBatchInsertRequest(records: Swift.Array&lt;KalaGatoPostApp.PostData&gt;, mnObjectcontext: __C.NSManagedObjectContext) -&gt; __C.NSBatchInsertRequest"
+                  moduleName = "KalaGatoPostApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/najranemarah/Desktop/KalaGatoPostApp/KalaGatoPostApp/Repository/PostDataRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "68"
+                  endingLineNumber = "68"
+                  offsetFromSymbolStart = "2552">
+               </Location>
+               <Location
+                  uuid = "9C814D79-E005-4B05-A1FE-AA640F6E2B48 - 8f5bf8e0d81c03cb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.NSManagedObject) -&gt; Swift.Bool in KalaGatoPostApp.PostDataRepository.createBatchInsertRequest(records: Swift.Array&lt;KalaGatoPostApp.PostData&gt;, mnObjectcontext: __C.NSManagedObjectContext) -&gt; __C.NSBatchInsertRequest"
+                  moduleName = "KalaGatoPostApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/najranemarah/Desktop/KalaGatoPostApp/KalaGatoPostApp/Repository/PostDataRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "71"
+                  endingLineNumber = "71"
+                  offsetFromSymbolStart = "2525">
+               </Location>
+               <Location
+                  uuid = "9C814D79-E005-4B05-A1FE-AA640F6E2B48 - 8f5bf8e0d81c04b0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.NSManagedObject) -&gt; Swift.Bool in KalaGatoPostApp.PostDataRepository.createBatchInsertRequest(records: Swift.Array&lt;KalaGatoPostApp.PostData&gt;, mnObjectcontext: __C.NSManagedObjectContext) -&gt; __C.NSBatchInsertRequest"
+                  moduleName = "KalaGatoPostApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/najranemarah/Desktop/KalaGatoPostApp/KalaGatoPostApp/Repository/PostDataRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "110"
+                  endingLineNumber = "110"
+                  offsetFromSymbolStart = "2525">
+               </Location>
+               <Location
+                  uuid = "9C814D79-E005-4B05-A1FE-AA640F6E2B48 - 8f5bf8e0d81c0ea1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.NSManagedObject) -&gt; Swift.Bool in KalaGatoPostApp.PostDataRepository.createBatchInsertRequest(records: Swift.Array&lt;KalaGatoPostApp.PostData&gt;, mnObjectcontext: __C.NSManagedObjectContext) -&gt; __C.NSBatchInsertRequest"
+                  moduleName = "KalaGatoPostApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/najranemarah/Desktop/KalaGatoPostApp/KalaGatoPostApp/Repository/PostDataRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "157"
+                  endingLineNumber = "157"
+                  offsetFromSymbolStart = "2525">
+               </Location>
+               <Location
+                  uuid = "9C814D79-E005-4B05-A1FE-AA640F6E2B48 - 8f5bf8e0d81c30b7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.NSManagedObject) -&gt; Swift.Bool in KalaGatoPostApp.PostDataRepository.createBatchInsertRequest(records: Swift.Array&lt;KalaGatoPostApp.PostData&gt;, mnObjectcontext: __C.NSManagedObjectContext) -&gt; __C.NSBatchInsertRequest"
+                  moduleName = "KalaGatoPostApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/najranemarah/Desktop/KalaGatoPostApp/KalaGatoPostApp/Repository/PostDataRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "203"
+                  endingLineNumber = "203"
+                  offsetFromSymbolStart = "2525">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "02D322AD-2183-4AC8-A1A4-6E6C33A748BE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KalaGatoPostApp/Repository/PostDataRepository.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "200"
+            endingLineNumber = "200"
+            landmarkName = "createBatchInsertRequest(records:mnObjectcontext:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "02D322AD-2183-4AC8-A1A4-6E6C33A748BE - 8f5bf8e0d81c032e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.NSManagedObject) -&gt; Swift.Bool in KalaGatoPostApp.PostDataRepository.createBatchInsertRequest(records: Swift.Array&lt;KalaGatoPostApp.PostData&gt;, mnObjectcontext: __C.NSManagedObjectContext) -&gt; __C.NSBatchInsertRequest"
+                  moduleName = "KalaGatoPostApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/najranemarah/Desktop/KalaGatoPostApp/KalaGatoPostApp/Repository/PostDataRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "68"
+                  endingLineNumber = "68"
+                  offsetFromSymbolStart = "2442">
+               </Location>
+               <Location
+                  uuid = "02D322AD-2183-4AC8-A1A4-6E6C33A748BE - 8f5bf8e0d81c0417"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.NSManagedObject) -&gt; Swift.Bool in KalaGatoPostApp.PostDataRepository.createBatchInsertRequest(records: Swift.Array&lt;KalaGatoPostApp.PostData&gt;, mnObjectcontext: __C.NSManagedObjectContext) -&gt; __C.NSBatchInsertRequest"
+                  moduleName = "KalaGatoPostApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/najranemarah/Desktop/KalaGatoPostApp/KalaGatoPostApp/Repository/PostDataRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "107"
+                  endingLineNumber = "107"
+                  offsetFromSymbolStart = "2442">
+               </Location>
+               <Location
+                  uuid = "02D322AD-2183-4AC8-A1A4-6E6C33A748BE - 8f5bf8e0d81c0e04"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.NSManagedObject) -&gt; Swift.Bool in KalaGatoPostApp.PostDataRepository.createBatchInsertRequest(records: Swift.Array&lt;KalaGatoPostApp.PostData&gt;, mnObjectcontext: __C.NSManagedObjectContext) -&gt; __C.NSBatchInsertRequest"
+                  moduleName = "KalaGatoPostApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/najranemarah/Desktop/KalaGatoPostApp/KalaGatoPostApp/Repository/PostDataRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "154"
+                  endingLineNumber = "154"
+                  offsetFromSymbolStart = "2442">
+               </Location>
+               <Location
+                  uuid = "02D322AD-2183-4AC8-A1A4-6E6C33A748BE - 8f5bf8e0d81c302a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.NSManagedObject) -&gt; Swift.Bool in KalaGatoPostApp.PostDataRepository.createBatchInsertRequest(records: Swift.Array&lt;KalaGatoPostApp.PostData&gt;, mnObjectcontext: __C.NSManagedObjectContext) -&gt; __C.NSBatchInsertRequest"
+                  moduleName = "KalaGatoPostApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/najranemarah/Desktop/KalaGatoPostApp/KalaGatoPostApp/Repository/PostDataRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "200"
+                  endingLineNumber = "200"
+                  offsetFromSymbolStart = "2442">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

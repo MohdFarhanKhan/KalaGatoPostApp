@@ -1,0 +1,953 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		284E14D364C7D98FD9CD9E94 /* Pods_KalaGatoPostApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0B3193B1ECFA5708F1939E4 /* Pods_KalaGatoPostApp.framework */; };
+		3808AB52B56C70F0D416D1B8 /* Pods_KalaGatoPostApp_KalaGatoPostAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB69188011D56E3E3720EB62 /* Pods_KalaGatoPostApp_KalaGatoPostAppUITests.framework */; };
+		3AFFD0CD02C25F7707F8EF44 /* Pods_KalaGatoPostAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DABB451E5330F2DE93CEEA45 /* Pods_KalaGatoPostAppTests.framework */; };
+		7B3ED3EE2AA36FD4006F67A7 /* HTTPUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3ED3ED2AA36FD4006F67A7 /* HTTPUtility.swift */; };
+		7B3ED3F32AA38067006F67A7 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3ED3F22AA38067006F67A7 /* DataModel.swift */; };
+		7B3ED4112AA3A5BD006F67A7 /* PostDataRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3ED4102AA3A5BD006F67A7 /* PostDataRepository.swift */; };
+		7B3ED41F2AA3AFCA006F67A7 /* PostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3ED41E2AA3AFCA006F67A7 /* PostViewModel.swift */; };
+		7BA474CB2AA3B97A000813AF /* PersistentStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA474CA2AA3B97A000813AF /* PersistentStorage.swift */; };
+		7BA474CE2AA3C374000813AF /* PostCoreDataExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA474CD2AA3C374000813AF /* PostCoreDataExtension.swift */; };
+		7BB9F33B2AA454AA00E368E5 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB9F33A2AA454AA00E368E5 /* PostTableViewCell.swift */; };
+		7BB9F33D2AA4569600E368E5 /* PostTableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB9F33C2AA4569600E368E5 /* PostTableViewExtension.swift */; };
+		7BB9F3782AA499A900E368E5 /* CommentEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB9F3722AA499A900E368E5 /* CommentEntity+CoreDataClass.swift */; };
+		7BB9F3792AA499AA00E368E5 /* CommentEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB9F3732AA499A900E368E5 /* CommentEntity+CoreDataProperties.swift */; };
+		7BB9F37A2AA499AA00E368E5 /* PostEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB9F3742AA499A900E368E5 /* PostEntity+CoreDataClass.swift */; };
+		7BB9F37B2AA499AA00E368E5 /* PostEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB9F3752AA499A900E368E5 /* PostEntity+CoreDataProperties.swift */; };
+		7BB9F37C2AA499AA00E368E5 /* LikePostEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB9F3762AA499A900E368E5 /* LikePostEntity+CoreDataClass.swift */; };
+		7BB9F37D2AA499AA00E368E5 /* LikePostEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB9F3772AA499A900E368E5 /* LikePostEntity+CoreDataProperties.swift */; };
+		7BB9F37F2AA4ADAA00E368E5 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB9F37E2AA4ADAA00E368E5 /* DetailsViewController.swift */; };
+		7BB9F3832AA4B2FE00E368E5 /* DetailsTableiwExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB9F3822AA4B2FE00E368E5 /* DetailsTableiwExtension.swift */; };
+		7BB9F3852AA4B3C500E368E5 /* DetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB9F3842AA4B3C400E368E5 /* DetailsTableViewCell.swift */; };
+		7BB9F3872AA503F500E368E5 /* FavoriteTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB9F3862AA503F500E368E5 /* FavoriteTableViewController.swift */; };
+		7BB9F3892AA5079F00E368E5 /* FavoriteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB9F3882AA5079F00E368E5 /* FavoriteTableViewCell.swift */; };
+		7BB9F38B2AA5216A00E368E5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7BB9F38A2AA5216A00E368E5 /* GoogleService-Info.plist */; };
+		7BB9F38E2AA5540D00E368E5 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB9F38D2AA5540D00E368E5 /* Reachability.swift */; };
+		7BB9F3902AA5BCC300E368E5 /* SpinnerViewControllerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB9F38F2AA5BCC300E368E5 /* SpinnerViewControllerView.swift */; };
+		7BF1901D2AA306D300D1E58E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF1901C2AA306D300D1E58E /* AppDelegate.swift */; };
+		7BF1901F2AA306D300D1E58E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF1901E2AA306D300D1E58E /* SceneDelegate.swift */; };
+		7BF190212AA306D300D1E58E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF190202AA306D300D1E58E /* ViewController.swift */; };
+		7BF190272AA306D300D1E58E /* KalaGatoPostApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7BF190252AA306D300D1E58E /* KalaGatoPostApp.xcdatamodeld */; };
+		7BF190292AA306D500D1E58E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BF190282AA306D500D1E58E /* Assets.xcassets */; };
+		7BF1902C2AA306D500D1E58E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BF1902A2AA306D500D1E58E /* LaunchScreen.storyboard */; };
+		7BF190372AA306D600D1E58E /* KalaGatoPostAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF190362AA306D600D1E58E /* KalaGatoPostAppTests.swift */; };
+		7BF190412AA306D600D1E58E /* KalaGatoPostAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF190402AA306D600D1E58E /* KalaGatoPostAppUITests.swift */; };
+		7BF190432AA306D600D1E58E /* KalaGatoPostAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF190422AA306D600D1E58E /* KalaGatoPostAppUITestsLaunchTests.swift */; };
+		7BF190502AA3136600D1E58E /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF1904F2AA3136600D1E58E /* PostViewController.swift */; };
+		7BF190522AA313D100D1E58E /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF190512AA313D100D1E58E /* FavoriteViewController.swift */; };
+		7BF190532AA313D100D1E58E /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF190512AA313D100D1E58E /* FavoriteViewController.swift */; };
+		7BF190542AA313D100D1E58E /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF190512AA313D100D1E58E /* FavoriteViewController.swift */; };
+		7BF190562AA315BF00D1E58E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BF190552AA315BF00D1E58E /* Main.storyboard */; };
+		7BF190572AA315BF00D1E58E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BF190552AA315BF00D1E58E /* Main.storyboard */; };
+		7BF190582AA315BF00D1E58E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BF190552AA315BF00D1E58E /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7BF190332AA306D600D1E58E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7BF190112AA306D300D1E58E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BF190182AA306D300D1E58E;
+			remoteInfo = KalaGatoPostApp;
+		};
+		7BF1903D2AA306D600D1E58E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7BF190112AA306D300D1E58E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BF190182AA306D300D1E58E;
+			remoteInfo = KalaGatoPostApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A0462E991CB22ED7415774E /* Pods-KalaGatoPostAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KalaGatoPostAppTests.release.xcconfig"; path = "Target Support Files/Pods-KalaGatoPostAppTests/Pods-KalaGatoPostAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		2026CB35E2BA149FE34FF7E3 /* Pods-KalaGatoPostApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KalaGatoPostApp.debug.xcconfig"; path = "Target Support Files/Pods-KalaGatoPostApp/Pods-KalaGatoPostApp.debug.xcconfig"; sourceTree = "<group>"; };
+		2A6DAEFE10C699726F766AA6 /* Pods-KalaGatoPostAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KalaGatoPostAppTests.debug.xcconfig"; path = "Target Support Files/Pods-KalaGatoPostAppTests/Pods-KalaGatoPostAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		79FB4EBF3C29F5BBA7BB7C78 /* Pods-KalaGatoPostApp-KalaGatoPostAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KalaGatoPostApp-KalaGatoPostAppUITests.release.xcconfig"; path = "Target Support Files/Pods-KalaGatoPostApp-KalaGatoPostAppUITests/Pods-KalaGatoPostApp-KalaGatoPostAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7B3ED3ED2AA36FD4006F67A7 /* HTTPUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPUtility.swift; sourceTree = "<group>"; };
+		7B3ED3F22AA38067006F67A7 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		7B3ED4102AA3A5BD006F67A7 /* PostDataRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDataRepository.swift; sourceTree = "<group>"; };
+		7B3ED41E2AA3AFCA006F67A7 /* PostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewModel.swift; sourceTree = "<group>"; };
+		7BA474CA2AA3B97A000813AF /* PersistentStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistentStorage.swift; sourceTree = "<group>"; };
+		7BA474CD2AA3C374000813AF /* PostCoreDataExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCoreDataExtension.swift; sourceTree = "<group>"; };
+		7BB9F33A2AA454AA00E368E5 /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		7BB9F33C2AA4569600E368E5 /* PostTableViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewExtension.swift; sourceTree = "<group>"; };
+		7BB9F3722AA499A900E368E5 /* CommentEntity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CommentEntity+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		7BB9F3732AA499A900E368E5 /* CommentEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CommentEntity+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		7BB9F3742AA499A900E368E5 /* PostEntity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PostEntity+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		7BB9F3752AA499A900E368E5 /* PostEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PostEntity+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		7BB9F3762AA499A900E368E5 /* LikePostEntity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LikePostEntity+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		7BB9F3772AA499A900E368E5 /* LikePostEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LikePostEntity+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		7BB9F37E2AA4ADAA00E368E5 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		7BB9F3822AA4B2FE00E368E5 /* DetailsTableiwExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsTableiwExtension.swift; sourceTree = "<group>"; };
+		7BB9F3842AA4B3C400E368E5 /* DetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsTableViewCell.swift; sourceTree = "<group>"; };
+		7BB9F3862AA503F500E368E5 /* FavoriteTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteTableViewController.swift; sourceTree = "<group>"; };
+		7BB9F3882AA5079F00E368E5 /* FavoriteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteTableViewCell.swift; sourceTree = "<group>"; };
+		7BB9F38A2AA5216A00E368E5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7BB9F38D2AA5540D00E368E5 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		7BB9F38F2AA5BCC300E368E5 /* SpinnerViewControllerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinnerViewControllerView.swift; sourceTree = "<group>"; };
+		7BF190192AA306D300D1E58E /* KalaGatoPostApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KalaGatoPostApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BF1901C2AA306D300D1E58E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7BF1901E2AA306D300D1E58E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7BF190202AA306D300D1E58E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7BF190262AA306D300D1E58E /* KalaGatoPostApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KalaGatoPostApp.xcdatamodel; sourceTree = "<group>"; };
+		7BF190282AA306D500D1E58E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7BF1902B2AA306D500D1E58E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7BF1902D2AA306D500D1E58E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BF190322AA306D600D1E58E /* KalaGatoPostAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KalaGatoPostAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BF190362AA306D600D1E58E /* KalaGatoPostAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KalaGatoPostAppTests.swift; sourceTree = "<group>"; };
+		7BF1903C2AA306D600D1E58E /* KalaGatoPostAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KalaGatoPostAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BF190402AA306D600D1E58E /* KalaGatoPostAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KalaGatoPostAppUITests.swift; sourceTree = "<group>"; };
+		7BF190422AA306D600D1E58E /* KalaGatoPostAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KalaGatoPostAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7BF1904F2AA3136600D1E58E /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		7BF190512AA313D100D1E58E /* FavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
+		7BF190552AA315BF00D1E58E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		7F969226FDC5E2A5B2F06CB2 /* Pods-KalaGatoPostApp-KalaGatoPostAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KalaGatoPostApp-KalaGatoPostAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-KalaGatoPostApp-KalaGatoPostAppUITests/Pods-KalaGatoPostApp-KalaGatoPostAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9C0D82A621E9F65CFB2757CA /* Pods-KalaGatoPostApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KalaGatoPostApp.release.xcconfig"; path = "Target Support Files/Pods-KalaGatoPostApp/Pods-KalaGatoPostApp.release.xcconfig"; sourceTree = "<group>"; };
+		DABB451E5330F2DE93CEEA45 /* Pods_KalaGatoPostAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KalaGatoPostAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0B3193B1ECFA5708F1939E4 /* Pods_KalaGatoPostApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KalaGatoPostApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB69188011D56E3E3720EB62 /* Pods_KalaGatoPostApp_KalaGatoPostAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KalaGatoPostApp_KalaGatoPostAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7BF190162AA306D300D1E58E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				284E14D364C7D98FD9CD9E94 /* Pods_KalaGatoPostApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BF1902F2AA306D600D1E58E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AFFD0CD02C25F7707F8EF44 /* Pods_KalaGatoPostAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BF190392AA306D600D1E58E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3808AB52B56C70F0D416D1B8 /* Pods_KalaGatoPostApp_KalaGatoPostAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7B3ED3EC2AA36FB8006F67A7 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				7B3ED3ED2AA36FD4006F67A7 /* HTTPUtility.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		7B3ED3EF2AA37013006F67A7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7B3ED3F22AA38067006F67A7 /* DataModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7B3ED3F02AA37E0A006F67A7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7B3ED3F12AA3802B006F67A7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7B3ED41E2AA3AFCA006F67A7 /* PostViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		7B3ED40D2AA3904F006F67A7 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				7B3ED4102AA3A5BD006F67A7 /* PostDataRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		7B3ED4202AA3B091006F67A7 /* CoreDataResource */ = {
+			isa = PBXGroup;
+			children = (
+				7BB9F3722AA499A900E368E5 /* CommentEntity+CoreDataClass.swift */,
+				7BB9F3732AA499A900E368E5 /* CommentEntity+CoreDataProperties.swift */,
+				7BB9F3742AA499A900E368E5 /* PostEntity+CoreDataClass.swift */,
+				7BB9F3752AA499A900E368E5 /* PostEntity+CoreDataProperties.swift */,
+				7BB9F3762AA499A900E368E5 /* LikePostEntity+CoreDataClass.swift */,
+				7BB9F3772AA499A900E368E5 /* LikePostEntity+CoreDataProperties.swift */,
+			);
+			path = CoreDataResource;
+			sourceTree = "<group>";
+		};
+		7BA474C92AA3B959000813AF /* StorageManager */ = {
+			isa = PBXGroup;
+			children = (
+				7BA474CA2AA3B97A000813AF /* PersistentStorage.swift */,
+			);
+			path = StorageManager;
+			sourceTree = "<group>";
+		};
+		7BA474CC2AA3C324000813AF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7BA474CD2AA3C374000813AF /* PostCoreDataExtension.swift */,
+				7BB9F33C2AA4569600E368E5 /* PostTableViewExtension.swift */,
+				7BB9F3822AA4B2FE00E368E5 /* DetailsTableiwExtension.swift */,
+				7BB9F3862AA503F500E368E5 /* FavoriteTableViewController.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		7BB9F3372AA4541A00E368E5 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				7BB9F33A2AA454AA00E368E5 /* PostTableViewCell.swift */,
+				7BB9F3842AA4B3C400E368E5 /* DetailsTableViewCell.swift */,
+				7BB9F3882AA5079F00E368E5 /* FavoriteTableViewCell.swift */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		7BB9F38C2AA553EA00E368E5 /* NetworkMonitoring */ = {
+			isa = PBXGroup;
+			children = (
+				7BB9F38D2AA5540D00E368E5 /* Reachability.swift */,
+			);
+			path = NetworkMonitoring;
+			sourceTree = "<group>";
+		};
+		7BF190102AA306D300D1E58E = {
+			isa = PBXGroup;
+			children = (
+				7BF1901B2AA306D300D1E58E /* KalaGatoPostApp */,
+				7BF190352AA306D600D1E58E /* KalaGatoPostAppTests */,
+				7BF1903F2AA306D600D1E58E /* KalaGatoPostAppUITests */,
+				7BF1901A2AA306D300D1E58E /* Products */,
+				BC38FBB830BB6AA1C184A364 /* Pods */,
+				E4E2ED5B9C7455F3AA27C1C4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7BF1901A2AA306D300D1E58E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7BF190192AA306D300D1E58E /* KalaGatoPostApp.app */,
+				7BF190322AA306D600D1E58E /* KalaGatoPostAppTests.xctest */,
+				7BF1903C2AA306D600D1E58E /* KalaGatoPostAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7BF1901B2AA306D300D1E58E /* KalaGatoPostApp */ = {
+			isa = PBXGroup;
+			children = (
+				7BB9F38C2AA553EA00E368E5 /* NetworkMonitoring */,
+				7BB9F3372AA4541A00E368E5 /* TableViewCells */,
+				7BA474CC2AA3C324000813AF /* Extensions */,
+				7BA474C92AA3B959000813AF /* StorageManager */,
+				7B3ED4202AA3B091006F67A7 /* CoreDataResource */,
+				7B3ED40D2AA3904F006F67A7 /* Repository */,
+				7B3ED3F12AA3802B006F67A7 /* ViewModel */,
+				7B3ED3F02AA37E0A006F67A7 /* View */,
+				7B3ED3EF2AA37013006F67A7 /* Models */,
+				7B3ED3EC2AA36FB8006F67A7 /* Services */,
+				7BF1901C2AA306D300D1E58E /* AppDelegate.swift */,
+				7BF1901E2AA306D300D1E58E /* SceneDelegate.swift */,
+				7BB9F38F2AA5BCC300E368E5 /* SpinnerViewControllerView.swift */,
+				7BF1904F2AA3136600D1E58E /* PostViewController.swift */,
+				7BB9F37E2AA4ADAA00E368E5 /* DetailsViewController.swift */,
+				7BF190512AA313D100D1E58E /* FavoriteViewController.swift */,
+				7BF190202AA306D300D1E58E /* ViewController.swift */,
+				7BF190552AA315BF00D1E58E /* Main.storyboard */,
+				7BB9F38A2AA5216A00E368E5 /* GoogleService-Info.plist */,
+				7BF190282AA306D500D1E58E /* Assets.xcassets */,
+				7BF1902A2AA306D500D1E58E /* LaunchScreen.storyboard */,
+				7BF1902D2AA306D500D1E58E /* Info.plist */,
+				7BF190252AA306D300D1E58E /* KalaGatoPostApp.xcdatamodeld */,
+			);
+			path = KalaGatoPostApp;
+			sourceTree = "<group>";
+		};
+		7BF190352AA306D600D1E58E /* KalaGatoPostAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				7BF190362AA306D600D1E58E /* KalaGatoPostAppTests.swift */,
+			);
+			path = KalaGatoPostAppTests;
+			sourceTree = "<group>";
+		};
+		7BF1903F2AA306D600D1E58E /* KalaGatoPostAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7BF190402AA306D600D1E58E /* KalaGatoPostAppUITests.swift */,
+				7BF190422AA306D600D1E58E /* KalaGatoPostAppUITestsLaunchTests.swift */,
+			);
+			path = KalaGatoPostAppUITests;
+			sourceTree = "<group>";
+		};
+		BC38FBB830BB6AA1C184A364 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2026CB35E2BA149FE34FF7E3 /* Pods-KalaGatoPostApp.debug.xcconfig */,
+				9C0D82A621E9F65CFB2757CA /* Pods-KalaGatoPostApp.release.xcconfig */,
+				7F969226FDC5E2A5B2F06CB2 /* Pods-KalaGatoPostApp-KalaGatoPostAppUITests.debug.xcconfig */,
+				79FB4EBF3C29F5BBA7BB7C78 /* Pods-KalaGatoPostApp-KalaGatoPostAppUITests.release.xcconfig */,
+				2A6DAEFE10C699726F766AA6 /* Pods-KalaGatoPostAppTests.debug.xcconfig */,
+				0A0462E991CB22ED7415774E /* Pods-KalaGatoPostAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E4E2ED5B9C7455F3AA27C1C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F0B3193B1ECFA5708F1939E4 /* Pods_KalaGatoPostApp.framework */,
+				FB69188011D56E3E3720EB62 /* Pods_KalaGatoPostApp_KalaGatoPostAppUITests.framework */,
+				DABB451E5330F2DE93CEEA45 /* Pods_KalaGatoPostAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7BF190182AA306D300D1E58E /* KalaGatoPostApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BF190462AA306D600D1E58E /* Build configuration list for PBXNativeTarget "KalaGatoPostApp" */;
+			buildPhases = (
+				F71DA6D0C36DF9B85D77E974 /* [CP] Check Pods Manifest.lock */,
+				7BF190152AA306D300D1E58E /* Sources */,
+				7BF190162AA306D300D1E58E /* Frameworks */,
+				7BF190172AA306D300D1E58E /* Resources */,
+				1876E622A16E8720F1CAB1E2 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KalaGatoPostApp;
+			productName = KalaGatoPostApp;
+			productReference = 7BF190192AA306D300D1E58E /* KalaGatoPostApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7BF190312AA306D600D1E58E /* KalaGatoPostAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BF190492AA306D600D1E58E /* Build configuration list for PBXNativeTarget "KalaGatoPostAppTests" */;
+			buildPhases = (
+				1AAC94115736971539131550 /* [CP] Check Pods Manifest.lock */,
+				7BF1902E2AA306D600D1E58E /* Sources */,
+				7BF1902F2AA306D600D1E58E /* Frameworks */,
+				7BF190302AA306D600D1E58E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BF190342AA306D600D1E58E /* PBXTargetDependency */,
+			);
+			name = KalaGatoPostAppTests;
+			productName = KalaGatoPostAppTests;
+			productReference = 7BF190322AA306D600D1E58E /* KalaGatoPostAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7BF1903B2AA306D600D1E58E /* KalaGatoPostAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BF1904C2AA306D600D1E58E /* Build configuration list for PBXNativeTarget "KalaGatoPostAppUITests" */;
+			buildPhases = (
+				831D99B7AE00C62B93B80B8D /* [CP] Check Pods Manifest.lock */,
+				7BF190382AA306D600D1E58E /* Sources */,
+				7BF190392AA306D600D1E58E /* Frameworks */,
+				7BF1903A2AA306D600D1E58E /* Resources */,
+				11F7C6A5F1CA5B0116FD548A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BF1903E2AA306D600D1E58E /* PBXTargetDependency */,
+			);
+			name = KalaGatoPostAppUITests;
+			productName = KalaGatoPostAppUITests;
+			productReference = 7BF1903C2AA306D600D1E58E /* KalaGatoPostAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7BF190112AA306D300D1E58E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					7BF190182AA306D300D1E58E = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					7BF190312AA306D600D1E58E = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 7BF190182AA306D300D1E58E;
+					};
+					7BF1903B2AA306D600D1E58E = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 7BF190182AA306D300D1E58E;
+					};
+				};
+			};
+			buildConfigurationList = 7BF190142AA306D300D1E58E /* Build configuration list for PBXProject "KalaGatoPostApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7BF190102AA306D300D1E58E;
+			productRefGroup = 7BF1901A2AA306D300D1E58E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7BF190182AA306D300D1E58E /* KalaGatoPostApp */,
+				7BF190312AA306D600D1E58E /* KalaGatoPostAppTests */,
+				7BF1903B2AA306D600D1E58E /* KalaGatoPostAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7BF190172AA306D300D1E58E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BF190562AA315BF00D1E58E /* Main.storyboard in Resources */,
+				7BB9F38B2AA5216A00E368E5 /* GoogleService-Info.plist in Resources */,
+				7BF1902C2AA306D500D1E58E /* LaunchScreen.storyboard in Resources */,
+				7BF190292AA306D500D1E58E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BF190302AA306D600D1E58E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BF190572AA315BF00D1E58E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BF1903A2AA306D600D1E58E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BF190582AA315BF00D1E58E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		11F7C6A5F1CA5B0116FD548A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KalaGatoPostApp-KalaGatoPostAppUITests/Pods-KalaGatoPostApp-KalaGatoPostAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KalaGatoPostApp-KalaGatoPostAppUITests/Pods-KalaGatoPostApp-KalaGatoPostAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KalaGatoPostApp-KalaGatoPostAppUITests/Pods-KalaGatoPostApp-KalaGatoPostAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1876E622A16E8720F1CAB1E2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KalaGatoPostApp/Pods-KalaGatoPostApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KalaGatoPostApp/Pods-KalaGatoPostApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KalaGatoPostApp/Pods-KalaGatoPostApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1AAC94115736971539131550 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KalaGatoPostAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		831D99B7AE00C62B93B80B8D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KalaGatoPostApp-KalaGatoPostAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F71DA6D0C36DF9B85D77E974 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KalaGatoPostApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7BF190152AA306D300D1E58E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BB9F3782AA499A900E368E5 /* CommentEntity+CoreDataClass.swift in Sources */,
+				7B3ED3EE2AA36FD4006F67A7 /* HTTPUtility.swift in Sources */,
+				7B3ED3F32AA38067006F67A7 /* DataModel.swift in Sources */,
+				7BB9F37F2AA4ADAA00E368E5 /* DetailsViewController.swift in Sources */,
+				7BB9F3792AA499AA00E368E5 /* CommentEntity+CoreDataProperties.swift in Sources */,
+				7BB9F38E2AA5540D00E368E5 /* Reachability.swift in Sources */,
+				7B3ED41F2AA3AFCA006F67A7 /* PostViewModel.swift in Sources */,
+				7BB9F3852AA4B3C500E368E5 /* DetailsTableViewCell.swift in Sources */,
+				7BB9F3892AA5079F00E368E5 /* FavoriteTableViewCell.swift in Sources */,
+				7BF190212AA306D300D1E58E /* ViewController.swift in Sources */,
+				7BB9F37A2AA499AA00E368E5 /* PostEntity+CoreDataClass.swift in Sources */,
+				7BB9F33B2AA454AA00E368E5 /* PostTableViewCell.swift in Sources */,
+				7B3ED4112AA3A5BD006F67A7 /* PostDataRepository.swift in Sources */,
+				7BB9F3832AA4B2FE00E368E5 /* DetailsTableiwExtension.swift in Sources */,
+				7BB9F37D2AA499AA00E368E5 /* LikePostEntity+CoreDataProperties.swift in Sources */,
+				7BA474CB2AA3B97A000813AF /* PersistentStorage.swift in Sources */,
+				7BB9F3902AA5BCC300E368E5 /* SpinnerViewControllerView.swift in Sources */,
+				7BB9F37B2AA499AA00E368E5 /* PostEntity+CoreDataProperties.swift in Sources */,
+				7BF1901D2AA306D300D1E58E /* AppDelegate.swift in Sources */,
+				7BF1901F2AA306D300D1E58E /* SceneDelegate.swift in Sources */,
+				7BA474CE2AA3C374000813AF /* PostCoreDataExtension.swift in Sources */,
+				7BF190272AA306D300D1E58E /* KalaGatoPostApp.xcdatamodeld in Sources */,
+				7BF190522AA313D100D1E58E /* FavoriteViewController.swift in Sources */,
+				7BB9F3872AA503F500E368E5 /* FavoriteTableViewController.swift in Sources */,
+				7BF190502AA3136600D1E58E /* PostViewController.swift in Sources */,
+				7BB9F37C2AA499AA00E368E5 /* LikePostEntity+CoreDataClass.swift in Sources */,
+				7BB9F33D2AA4569600E368E5 /* PostTableViewExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BF1902E2AA306D600D1E58E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BF190532AA313D100D1E58E /* FavoriteViewController.swift in Sources */,
+				7BF190372AA306D600D1E58E /* KalaGatoPostAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BF190382AA306D600D1E58E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BF190432AA306D600D1E58E /* KalaGatoPostAppUITestsLaunchTests.swift in Sources */,
+				7BF190542AA313D100D1E58E /* FavoriteViewController.swift in Sources */,
+				7BF190412AA306D600D1E58E /* KalaGatoPostAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7BF190342AA306D600D1E58E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7BF190182AA306D300D1E58E /* KalaGatoPostApp */;
+			targetProxy = 7BF190332AA306D600D1E58E /* PBXContainerItemProxy */;
+		};
+		7BF1903E2AA306D600D1E58E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7BF190182AA306D300D1E58E /* KalaGatoPostApp */;
+			targetProxy = 7BF1903D2AA306D600D1E58E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7BF1902A2AA306D500D1E58E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BF1902B2AA306D500D1E58E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7BF190442AA306D600D1E58E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7BF190452AA306D600D1E58E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7BF190472AA306D600D1E58E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2026CB35E2BA149FE34FF7E3 /* Pods-KalaGatoPostApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KalaGatoPostApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.emarah.News.KalaGatoPostApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Debug;
+		};
+		7BF190482AA306D600D1E58E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C0D82A621E9F65CFB2757CA /* Pods-KalaGatoPostApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KalaGatoPostApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.emarah.News.KalaGatoPostApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7BF1904A2AA306D600D1E58E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A6DAEFE10C699726F766AA6 /* Pods-KalaGatoPostAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.emarah.News.KalaGatoPostAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KalaGatoPostApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KalaGatoPostApp";
+			};
+			name = Debug;
+		};
+		7BF1904B2AA306D600D1E58E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A0462E991CB22ED7415774E /* Pods-KalaGatoPostAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.emarah.News.KalaGatoPostAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KalaGatoPostApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KalaGatoPostApp";
+			};
+			name = Release;
+		};
+		7BF1904D2AA306D600D1E58E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F969226FDC5E2A5B2F06CB2 /* Pods-KalaGatoPostApp-KalaGatoPostAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.emarah.News.KalaGatoPostAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KalaGatoPostApp;
+			};
+			name = Debug;
+		};
+		7BF1904E2AA306D600D1E58E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79FB4EBF3C29F5BBA7BB7C78 /* Pods-KalaGatoPostApp-KalaGatoPostAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.emarah.News.KalaGatoPostAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KalaGatoPostApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7BF190142AA306D300D1E58E /* Build configuration list for PBXProject "KalaGatoPostApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BF190442AA306D600D1E58E /* Debug */,
+				7BF190452AA306D600D1E58E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BF190462AA306D600D1E58E /* Build configuration list for PBXNativeTarget "KalaGatoPostApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BF190472AA306D600D1E58E /* Debug */,
+				7BF190482AA306D600D1E58E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BF190492AA306D600D1E58E /* Build configuration list for PBXNativeTarget "KalaGatoPostAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BF1904A2AA306D600D1E58E /* Debug */,
+				7BF1904B2AA306D600D1E58E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BF1904C2AA306D600D1E58E /* Build configuration list for PBXNativeTarget "KalaGatoPostAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BF1904D2AA306D600D1E58E /* Debug */,
+				7BF1904E2AA306D600D1E58E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7BF190252AA306D300D1E58E /* KalaGatoPostApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7BF190262AA306D300D1E58E /* KalaGatoPostApp.xcdatamodel */,
+			);
+			currentVersion = 7BF190262AA306D300D1E58E /* KalaGatoPostApp.xcdatamodel */;
+			path = KalaGatoPostApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7BF190112AA306D300D1E58E /* Project object */;
+}
